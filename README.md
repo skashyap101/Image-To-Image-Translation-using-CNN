@@ -2,21 +2,9 @@
 This project uses a U-Net-like convolutional neural network to colorize grayscale images of flowers. It is built using TensorFlow/Keras, and trained on grayscale and color pairs of flower images.
 
 📁 Folder Structure
-graphql
-Copy code
-image-colorization/
-│
-├── data/
-│   └── Flowers/
-│       ├── flowers_grey/         # Grayscale flower images (L-channel input)
-│       └── flowers_colour/       # Corresponding RGB flower images (used to get ab-channels)
-│
-├── input_images/
-│   └── my_grayscale_image.png    # User-supplied grayscale image to colorize
-│
-├── colorize.py                   # Main script with model, training, and colorization logic
-├── README.md                     # This file
-└── requirements.txt              # Python package dependencies
+![image](https://github.com/user-attachments/assets/a0b270e4-5ac1-450f-831f-d81a0b7bedc8)
+
+
 📦 Requirements
 Install dependencies with:
 
@@ -62,7 +50,6 @@ Attempt to colorize the user's grayscale image at input_images/my_grayscale_imag
 Colorized images are displayed using matplotlib. If you want to save them instead of just displaying, you can modify the colorize_user_image() function to use:
 
 python
-Copy code
 plt.imsave('output.png', rgb)
 🧠 Model Architecture
 The model is based on a U-Net-like architecture with skip connections, upsampling, and batch normalization.
