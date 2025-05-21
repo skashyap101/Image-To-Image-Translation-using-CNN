@@ -58,3 +58,8 @@ The model is based on a U-Net-like architecture with skip connections, upsamplin
 All images are resized to 256x256.
 
 Colorization is done in Lab color space, predicting the a and b channels from a grayscale L channel.
+
+Screenshot
+![image](https://github.com/user-attachments/assets/2dffa789-db53-4839-a422-41a3b8975ca7)
+![image](https://github.com/user-attachments/assets/4ed4cd7f-6b02-4e15-8ccc-d300897cbeae)
+
